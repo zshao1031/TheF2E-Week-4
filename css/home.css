@@ -1,0 +1,607 @@
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#logo{
+	width: 134px;
+	margin: 0 auto;
+	background: #000000;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1px 8px 2px 10px;
+}
+
+#mainTitle{
+	margin-top: 5px;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 72px;
+	color: #000000;
+	text-align: center;
+}
+
+.productArea{
+	float: left;
+}
+
+/**********************************/
+/*三層文字標題共用樣式*/
+
+.productTitle{
+	font-family: 'Roboto';
+	font-weight: 900;	
+	font-size: 48px;
+	color: #000000;
+	line-height: 32px;
+	padding-top: 3px;
+	overflow: hidden;
+}
+
+.storey1{
+	height: 9px;
+	color: rgba(0,0,0,0.10);
+}
+
+.storey2{
+	height: 18px;
+	color: rgba(0,0,0,0.30);
+}
+
+.storey3{
+	color: #000000;
+	height: 48px;
+}
+
+/*空心方塊樣式*/
+.hollowSquare{
+	border: 20px solid #50E3C2;
+}
+
+/*實心方塊樣式*/
+.solidSquare{
+	background: #50E3C2;
+}
+
+/**********************************/
+/*第一件產品*/
+/***********/
+
+#product01{	
+	margin-top: 83px;
+	width: 480px;
+	height: 400px;
+	position: relative;
+}
+
+#product01 .hollowSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	right: -60px;
+	top: -49px;
+}
+
+#product01 .picture{
+	width: 480px;
+	height: 400px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1513827379601-9dba5099a3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1acdd78f34ee75aade9e313251bb1695&auto=format&fit=crop&w=634&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 480px auto;
+	-moz-background-size: 480px auto;
+	-webkit-background-size: 480px auto;
+	-o-background-size: 480px auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product01 .mainTitle{
+	position: absolute;
+	left: 0;
+	top: -42px;
+}
+
+#product01 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: -48px;
+}
+
+#product01 .diagonalStripes{
+	width: 240px;
+	height: 100px;
+	background-image: url(../img/patternUnit.png);
+	position: absolute;
+	left: 60px;
+	bottom: -50px;
+}
+
+#product01 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	position: absolute;
+	right: -28px;
+	bottom: -24px;
+}
+
+/**********************************/
+/*第二件產品*/
+/***********/
+
+#product02{	
+	margin-top: 183px;
+	margin-left: 120px;
+	width: 240px;
+	height: 200px;
+	position: relative;
+}
+
+#product02 .hollowSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	right: -120px;
+	top: -99px;
+}
+
+#product02 .solidSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	right: -60px;
+	top: -50px;
+}
+
+#product02 .picture{
+	width: 240px;
+	height: 200px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1514632542677-48fae74a01b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf412aceb1d689765e387d30fca7210a&auto=format&fit=crop&w=634&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 240px auto;
+	-moz-background-size: 240px auto;
+	-webkit-background-size: 240px auto;
+	-o-background-size: 240px auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product02 .mainTitle{
+	position: absolute;
+	left: 120px;
+	bottom: -75px;
+}
+
+#product02 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	right: -120px;
+	top: -99px;
+}
+
+#product02 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	left: -15px;
+	top: -28px;
+}
+
+/**********************************/
+/*第三件產品*/
+/***********/
+
+#product03{	
+	margin-top: 200px;
+	width: 480px;
+	height: 200px;
+	position: relative;
+}
+
+#product03 .hollowSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	right: -60px;
+	bottom: -50px;
+}
+
+#product03 .solidSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	top: -50px;
+}
+
+#product03 .picture{
+	width: 480px;
+	height: 200px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0f994eef47e5fb1a67849703cc961b3&auto=format&fit=crop&w=1050&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 480px auto;
+	-moz-background-size: 480px auto;
+	-webkit-background-size: 480px auto;
+	-o-background-size: 480px auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product03 .mainTitle{
+	position: absolute;
+	right: 0px;
+	top: -69px;
+}
+
+#product03 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	right: -60px;
+	bottom: -50px;
+}
+
+#product03 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	left: 31px;
+	bottom: -28px;
+}
+
+/**********************************/
+/*第四件產品*/
+/***********/
+
+#product04{	
+	margin-top: 300px;
+	margin-left: 240px;
+	width: 240px;
+	height: 400px;
+	position: relative;
+}
+
+#product04 .hollowSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	left: -60px;
+	top: -100px;
+}
+
+#product04 .picture{
+	width: 240px;
+	height: 400px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1484516758160-69878111a911?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39466d66952b133d5a5cff642b970d05&auto=format&fit=crop&w=687&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 400px;
+	-moz-background-size: auto 400px;
+	-webkit-background-size: auto 400px;
+	-o-background-size: auto 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product04 .mainTitle{
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -104px;
+	top: 36px;
+}
+
+#product04 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	left: -56px;
+	bottom: 0px;
+}
+
+#product04 .diagonalStripes{
+	width: 240px;
+	height: 100px;
+	background-image: url(../img/patternUnit.png);
+	position: absolute;
+	left: 0px;
+	bottom: -50px;
+}
+
+#product04 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	writing-mode: vertical-lr;
+	-webkit-writing-mode: vertical-lr;
+	position: absolute;
+	right: 46px;
+	top: -145px;
+}
+
+/**********************************/
+/*第五件產品*/
+/***********/
+
+#product05{	
+	margin-top: 200px;
+	margin-left: 240px;
+	width: 240px;
+	height: 200px;
+	position: relative;
+}
+
+#product05 .hollowSquare{
+	width: 240px;	
+	height: 100px;
+	position: absolute;
+	left: -120px;
+	bottom: -50px;
+}
+
+#product05 .picture{
+	width: 240px;
+	height: 200px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1525448198276-222de3961638?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43fb25556cdbd191e520c7f28739e40d&auto=format&fit=crop&w=1350&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 200px;
+	-moz-background-size: auto 200px;
+	-webkit-background-size: auto 200px;
+	-o-background-size: auto 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*圖片水平翻轉*/
+	-moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    filter:FlipH;
+}
+
+#product05 .mainTitle{
+	position: absolute;
+	left: -240px;
+	top: 34px;
+}
+
+#product05 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	left: -120px;
+	bottom: 0px;
+}
+
+#product05 .diagonalStripes{
+	width: 240px;
+	height: 100px;
+	background-image: url(../img/patternUnit.png);
+	position: absolute;
+	left: -180px;
+	top: -50px;
+}
+
+#product05 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	right: -134px;
+	top: 0px;
+}
+
+/**********************************/
+/*第六件產品*/
+/***********/
+
+#product06{	
+	margin-top: 200px;
+	width: 480px;
+	height: 400px;
+	position: relative;
+}
+
+#product06 .hollowSquare{
+	width: 480px;	
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	bottom: -50px;
+}
+
+#product06 .solidSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	left: -60px;
+	bottom: 0px;
+}
+
+#product06 .picture{
+	display: block;
+	width: 480px;
+	height: 400px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1519406709381-c1f293304b28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c497a29f229085d9574ee8b6eeef8c&auto=format&fit=crop&w=634&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 480px auto;
+	-moz-background-size: 480px auto;
+	-webkit-background-size: 480px auto;
+	-o-background-size: 480px auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product06 .mainTitle{
+	position: absolute;
+	right: 0px;
+	top: -69px;
+}
+
+#product06 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	left: -60px;
+	bottom: 200px;
+}
+
+#product06 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -28px;
+}
+
+/**********************************/
+/*第七件產品*/
+/***********/
+
+#product07{	
+	margin-top: 200px;
+	width: 240px;
+	height: 400px;
+	position: relative;
+}
+
+#product07 .hollowSquare{
+	width: 240px;	
+	height: 400px;
+	position: absolute;
+	right: -60px;
+	top: -50px;
+}
+
+#product07 .solidSquare{
+	width: 240px;	
+	height: 200px;
+	position: absolute;
+	right: -120px;
+	bottom: 0px;
+}
+
+#product07 .picture{
+	width: 240px;
+	height: 400px;
+	background-color: black;
+	background-image: url('https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ff45d79414b3166b08b800a32018be&auto=format&fit=crop&w=634&q=80');
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: auto 400px;
+	-webkit-background-size: auto 400px;
+	-o-background-size: auto 400px;
+	background-size: auto 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#product07 .mainTitle{
+	transform: rotate(90deg);
+	position: absolute;
+	right: -122px;
+	top: 52px;
+}
+
+#product07 .num{
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 48px;
+	color: #000000;
+	width: 56px;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	right: -120px;
+	bottom: 0px;
+}
+
+#product07 .secondTitle{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: -28px;
+}
