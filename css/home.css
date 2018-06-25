@@ -88,6 +88,7 @@
 }
 
 #product01 .picture{
+	display: block;
 	width: 480px;
 	height: 400px;
 	background-color: black;
@@ -174,6 +175,7 @@
 }
 
 #product02 .picture{
+	display: block;
 	width: 240px;
 	height: 200px;
 	background-color: black;
@@ -248,6 +250,7 @@
 }
 
 #product03 .picture{
+	display: block;
 	width: 480px;
 	height: 200px;
 	background-color: black;
@@ -315,6 +318,7 @@
 }
 
 #product04 .picture{
+	display: block;
 	width: 240px;
 	height: 400px;
 	background-color: black;
@@ -394,6 +398,7 @@
 }
 
 #product05 .picture{
+	display: block;
 	width: 240px;
 	height: 200px;
 	background-color: black;
@@ -559,6 +564,7 @@
 }
 
 #product07 .picture{
+	display: block;
 	width: 240px;
 	height: 400px;
 	background-color: black;
