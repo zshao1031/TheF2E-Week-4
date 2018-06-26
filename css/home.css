@@ -68,6 +68,13 @@
 	background: #50E3C2;
 }
 
+/*條紋方塊樣式*/
+.diagonalStripes{
+	width: 240px;
+	height: 100px;
+	background-image: url(../img/patternUnit.png);
+}
+
 /**********************************/
 /*第一件產品*/
 /***********/
@@ -124,9 +131,6 @@
 }
 
 #product01 .diagonalStripes{
-	width: 240px;
-	height: 100px;
-	background-image: url(../img/patternUnit.png);
 	position: absolute;
 	left: 60px;
 	bottom: -50px;
@@ -355,9 +359,6 @@
 }
 
 #product04 .diagonalStripes{
-	width: 240px;
-	height: 100px;
-	background-image: url(../img/patternUnit.png);
 	position: absolute;
 	left: 0px;
 	bottom: -50px;
@@ -440,9 +441,6 @@
 }
 
 #product05 .diagonalStripes{
-	width: 240px;
-	height: 100px;
-	background-image: url(../img/patternUnit.png);
 	position: absolute;
 	left: -180px;
 	top: -50px;
