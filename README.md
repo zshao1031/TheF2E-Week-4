@@ -5,8 +5,8 @@
 ### 頁面展示：<https://zshao1031.github.io/TheF2E-Week-4/>
 ### 未實作功能：無
 
-### 預覽畫面：
-![預覽畫面](img/thumbnail.jpg)
+### 預覽圖片：
+![預覽圖片](img/thumbnail.jpg)
 
 ***
 ## 【其他說明】
